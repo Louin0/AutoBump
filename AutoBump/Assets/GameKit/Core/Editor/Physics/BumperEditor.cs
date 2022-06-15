@@ -119,7 +119,7 @@ public class BumperEditor : Editor
 						{
 							EditorGUILayout.BeginVertical(UIHelper.SubStyle2);
 							{
-								myObject.tag = EditorGUILayout.TagField("Tag :", myObject.tag);
+								myObject.tagName = EditorGUILayout.TagField("Tag :", myObject.tagName);
 							}
 							EditorGUILayout.EndVertical();
 						}
