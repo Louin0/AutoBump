@@ -141,7 +141,7 @@ public class SpawnOnTriggerEditor : Editor
 						{
 							EditorGUILayout.BeginVertical(UIHelper.SubStyle1);
 							{
-								myObject.tag = EditorGUILayout.TagField("Tag :", myObject.tag);
+								myObject.tagName = EditorGUILayout.TagField("Tag :", myObject.tagName);
 							}
 							EditorGUILayout.EndVertical();
 						}
